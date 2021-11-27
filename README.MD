@@ -8,7 +8,7 @@
 
 ### deployment into production
 
-- Front end web: Heroku
+- Front end web: github
 - Api: themoviedb
 
 ## How to run the project
