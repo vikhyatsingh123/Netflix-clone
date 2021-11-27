@@ -1,20 +1,20 @@
 # Netflix Clone
 
-# Technologies used
+## Technologies used
 
-## Front end
+### Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS
 
-## deployment into production
+### deployment into production
 
 - Front end web: Heroku
 - Api: themoviedb
 
-# How to run the project
+## How to run the project
 
 
-## Front end web
+### Front end web
 prerequisites: npm / yarn
 
 ```bash
