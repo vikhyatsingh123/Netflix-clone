@@ -20,56 +20,56 @@ const basicFecth = async (endpoint:string)=>{
             slug: "originals",
             title: "Netflix Originals",
             items: await basicFecth(
-              `/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`
+              `/discover/tv?with_network=213&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "trending",
             title: "Recommended for you",
             items: await basicFecth(
-              `/trending/all/week?language=pt-BR&api_key=${API_KEY}`
+              `/trending/all/week?language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "toprated",
             title: "On the rise",
             items: await basicFecth(
-              `/movie/top_rated?language=pt-BR&api_key=${API_KEY}`
+              `/movie/top_rated?language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "action",
             title: "Action",
             items: await basicFecth(
-              `/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`
+              `/discover/movie?with_genres=28&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "comedy",
             title: "Comedy",
             items: await basicFecth(
-              `/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`
+              `/discover/movie?with_genres=35&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "horror",
             title: "Horror",
             items: await basicFecth(
-              `/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`
+              `/discover/movie?with_genres=27&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "romance",
             title: "Romance",
             items: await basicFecth(
-              `/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`
+              `/discover/movie?with_genres=10749&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
             slug: "documentary",
             title: "Documentaries",
             items: await basicFecth(
-              `/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`
+              `/discover/movie?with_genres=99&language=en-USR&api_key=${API_KEY}`
             ),
           },
         ];
